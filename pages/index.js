@@ -1,7 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 
 export default function Home() {
-  return <h1>hi</h1>;
+  return (
+    <>
+      <Head>
+        <title>Home</title>
+      </Head>
+      <h1>home</h1>
+    </>
+  );
 }

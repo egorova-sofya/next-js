@@ -1,6 +1,6 @@
-const Title = ({ tag, text }) => {
+const Title = ({ tag, children }) => {
   const Tag = tag || "h1";
-  return <Tag>{text}</Tag>;
+  return <Tag>{children}</Tag>;
 };
 
 export default Title;
