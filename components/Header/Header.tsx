@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Title from "../Title/Title";
+import { FC } from "react";
 
-const Header = () => {
+const Header: FC = () => {
   return (
     <header>
       <Title>Header</Title>
